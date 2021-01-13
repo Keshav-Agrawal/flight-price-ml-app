@@ -5,7 +5,7 @@ import pickle
 import pandas as pd
 
 app = Flask(__name__)
-model = pickle.load(open("final_deploy", "rb"))
+model = pickle.load(open("Flight-price-prediction.pkl", "rb"))
 
 
 
